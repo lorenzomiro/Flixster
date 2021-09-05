@@ -11,7 +11,7 @@ public class DetailActivty extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        //get tile
+        //get title
 
         String title = getIntent().getStringExtra("title");
 

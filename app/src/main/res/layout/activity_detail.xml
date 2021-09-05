@@ -8,7 +8,7 @@
     tools:context=".DetailActivty">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textView"
@@ -22,5 +22,14 @@
         android:layout_height="wrap_content"
         android:isIndicator="true"
         android:numStars="10"
+        android:rating="8.5"
         android:scrollbarSize="2dp" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="TextView"
+        tools:text="Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface." />
+
 </LinearLayout>

@@ -134,7 +134,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
                     Intent i = new Intent(context, DetailActivty.class);
 
-                    i.putExtra("title", movie.getTitle());
+                    i.putExtra("title", movie.getTitle()); //pass data using a key-value pair
 
                     context.startActivity(i);
 
