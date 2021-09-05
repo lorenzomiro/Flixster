@@ -12,6 +12,10 @@ import org.parceler.Parcels;
 
 public class DetailActivty extends AppCompatActivity {
 
+    //use API key to import YouTube data
+
+    private static final String YOUTUBE_API_KEY = "AIzaSyByv11zjXXyZM1iQ2j4TnMu6uzozaimlV0";
+
     //implement textviews for movie overview + title, and rating bar
 
     TextView tvTitle;
