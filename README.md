@@ -1,3 +1,4 @@
+![Flixster Part 2](https://user-images.githubusercontent.com/46176613/132119903-bcfa47fa-00b1-4e63-b137-85259e32ed4e.gif)
 # Flix
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
@@ -24,7 +25,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. 
 
-<a href="https://imgur.com/a/tJftcO9"><img src="https://imgur.com/a/tJftcO9.gif" width=250><br></a>
+<a href="https://imgur.com/a/tJftcO9"><img src="https://imgur.com/a/tJftcO9.gif" title="source: imgur.com" /></a>
 
 ### Notes
 
