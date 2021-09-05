@@ -21,6 +21,8 @@ import com.example.flixster.R;
 import com.example.flixster.models.Movie;
 
 
+import org.parceler.Parcels;
+
 import java.util.List;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
@@ -134,7 +136,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
                     Intent i = new Intent(context, DetailActivty.class);
 
-                    i.putExtra("title", movie.getTitle()); //pass data using a key-value pair
+                    i.putExtra("movie", Parcels.wrap(movie)); //wrap movie data for extraction
 
                     context.startActivity(i);
 

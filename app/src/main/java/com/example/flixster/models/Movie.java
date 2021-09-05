@@ -5,10 +5,12 @@ package com.example.flixster.models;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Parcel
 public class Movie {
 
     String backdropPath;
@@ -19,6 +21,14 @@ public class Movie {
 
     String overview;
 
+    double rating;
+
+    //add empty constructor so parcel library can be used
+
+    public Movie() {
+
+    }
+
     public Movie(JSONObject jsonObject) throws JSONException { //take in JSON objects + get important data
 
         backdropPath = jsonObject.getString("backdrop_path");
@@ -28,6 +38,8 @@ public class Movie {
         title = jsonObject.getString("title");
 
         overview = jsonObject.getString("overview");
+
+        rating = jsonObject.getDouble("vote_average");
 
     }
 
@@ -70,4 +82,11 @@ public class Movie {
 
     }
 
+    public double getRating() {
+
+        return rating;
+
+    }
+
 }
+
