@@ -21,6 +21,8 @@ public class Movie {
 
     String overview;
 
+    int movieId;
+
     double rating;
 
     //add empty constructor so parcel library can be used
@@ -40,6 +42,8 @@ public class Movie {
         overview = jsonObject.getString("overview");
 
         rating = jsonObject.getDouble("vote_average");
+
+        movieId = jsonObject.getInt("id");
 
     }
 
@@ -85,6 +89,12 @@ public class Movie {
     public double getRating() {
 
         return rating;
+
+    }
+
+    public int getMovieId() {
+
+        return movieId;
 
     }
 
